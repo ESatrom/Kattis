@@ -1,0 +1,1 @@
+print('\n'.join("skipped"if'P'in x else str(eval(x))for x in[input()for i in'*'*int(input())]))
